@@ -1039,7 +1039,7 @@ class Player(object):
         """
         return float()
 
- def getPlayingItem(self):
+    def getPlayingItem(self):
         """
         Returns the current playing item.
 
