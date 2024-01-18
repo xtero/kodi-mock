@@ -1039,6 +1039,18 @@ class Player(object):
         """
         return float()
 
+ def getPlayingItem(self):
+        """
+        Returns the current playing item.
+
+        :return: Playing item
+        :raises Exception: If player is not playing a file.
+
+        @python_v20 New function added.
+        """
+        from xbmcgui import ListItem
+        return ListItem()
+
     def getTime(self):
         """
         Returns the current time of the current playing media as fractional seconds.
